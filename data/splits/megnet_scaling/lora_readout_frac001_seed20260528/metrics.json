@@ -1,0 +1,482 @@
+{
+  "baseline": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620622,
+      "median_abs_mev_atom": 28.03332455859242,
+      "p90_abs_mev_atom": 158.61420971424806,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "p99_abs_mev_atom": 942.3049437263066,
+      "bias_mev_atom": -58.24372909928779,
+      "r2": 0.9273599772615706
+    }
+  },
+  "finetuned": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.27842908092397,
+      "rmse_mev_atom": 307.4567289293656,
+      "median_abs_mev_atom": 27.850287634382354,
+      "p90_abs_mev_atom": 158.2748830850046,
+      "p95_abs_mev_atom": 267.5457016709936,
+      "p99_abs_mev_atom": 942.2374492147025,
+      "bias_mev_atom": -57.68024658546191,
+      "r2": 0.9274101953782008
+    }
+  },
+  "tuning": {
+    "tuning_type": "lora_readout",
+    "lora_layers": [
+      "readout_0",
+      "readout_1",
+      "readout_2"
+    ],
+    "total_parameters": 169305,
+    "trainable_parameters": 1544,
+    "non_trainable_parameters": 167761,
+    "trainable_fraction": 0.009119636159593632,
+    "trainable_parameter_types": {
+      "LoRADense": 1544
+    },
+    "trainable_layers": [
+      "readout_0",
+      "readout_1",
+      "readout_2"
+    ],
+    "layer_rows": [
+      {
+        "name": "atom_int_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "bond_float_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "atom_embedding",
+        "type": "Embedding",
+        "trainable": false,
+        "n_weights": 1,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 1520
+      },
+      {
+        "name": "gaussian_expansion",
+        "type": "GaussianExpansion",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "state_default_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "preblock_atom_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 1088
+      },
+      {
+        "name": "preblock_bond_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 6464
+      },
+      {
+        "name": "preblock_state_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 192
+      },
+      {
+        "name": "preblock_atom_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "preblock_bond_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "preblock_state_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "bond_index_1_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "bond_index_2_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "atom_graph_index_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "bond_graph_index_input",
+        "type": "InputLayer",
+        "trainable": true,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "megnet_0",
+        "type": "MEGNetLayer",
+        "trainable": false,
+        "n_weights": 18,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 39392
+      },
+      {
+        "name": "block_0_add_atom",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_0_add_bond",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_0_add_state",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_1_atom_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_1_bond_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_1_state_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_1_atom_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "block_1_bond_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "block_1_state_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "megnet_1",
+        "type": "MEGNetLayer",
+        "trainable": false,
+        "n_weights": 18,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 39392
+      },
+      {
+        "name": "block_1_add_atom",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_1_add_bond",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_1_add_state",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_2_atom_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_2_bond_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_2_state_ff_0",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2112
+      },
+      {
+        "name": "block_2_atom_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "block_2_bond_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "block_2_state_ff_1",
+        "type": "Dense",
+        "trainable": false,
+        "n_weights": 2,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2080
+      },
+      {
+        "name": "megnet_2",
+        "type": "MEGNetLayer",
+        "trainable": false,
+        "n_weights": 18,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 39392
+      },
+      {
+        "name": "block_2_add_atom",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "block_2_add_bond",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "set2set_atom",
+        "type": "Set2Set",
+        "trainable": false,
+        "n_weights": 4,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2640
+      },
+      {
+        "name": "set2set_bond",
+        "type": "Set2Set",
+        "trainable": false,
+        "n_weights": 4,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 2640
+      },
+      {
+        "name": "block_2_add_state",
+        "type": "Add",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "concatenate",
+        "type": "Concatenate",
+        "trainable": false,
+        "n_weights": 0,
+        "trainable_parameters": 0,
+        "non_trainable_parameters": 0
+      },
+      {
+        "name": "readout_0",
+        "type": "LoRADense",
+        "trainable": true,
+        "n_weights": 4,
+        "trainable_parameters": 1024,
+        "non_trainable_parameters": 3104
+      },
+      {
+        "name": "readout_1",
+        "type": "LoRADense",
+        "trainable": true,
+        "n_weights": 4,
+        "trainable_parameters": 384,
+        "non_trainable_parameters": 528
+      },
+      {
+        "name": "readout_2",
+        "type": "LoRADense",
+        "trainable": true,
+        "n_weights": 4,
+        "trainable_parameters": 136,
+        "non_trainable_parameters": 17
+      }
+    ]
+  },
+  "best_checkpoint": "",
+  "evaluation_model": "in_memory_best_val_weights",
+  "checkpoint_reload_boundary": "best weights are restored with load_weights when possible; fallback is in-memory best-val tracking",
+  "last_model": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/lora_readout_frac001_seed20260528/finetuned_last_model.hdf5",
+  "checkpoint_saving_enabled": false,
+  "restored_best_weights": true,
+  "best_val_epoch": 8,
+  "best_val_mae_mev_atom": 87.22348404671791,
+  "training_history": [
+    {
+      "epoch": 1,
+      "loss": 0.013250992633402348,
+      "val_mae": 0.0872949940834464
+    },
+    {
+      "epoch": 2,
+      "loss": 0.01591142825782299,
+      "val_mae": 0.08729207115215039
+    },
+    {
+      "epoch": 3,
+      "loss": 0.01157254446297884,
+      "val_mae": 0.08728706560132263
+    },
+    {
+      "epoch": 4,
+      "loss": 0.013590137474238873,
+      "val_mae": 0.08727942997367356
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0145498625934124,
+      "val_mae": 0.0872690862100256
+    },
+    {
+      "epoch": 6,
+      "loss": 0.013545558787882328,
+      "val_mae": 0.08725659438491135
+    },
+    {
+      "epoch": 7,
+      "loss": 0.015658380463719368,
+      "val_mae": 0.08724117530624567
+    },
+    {
+      "epoch": 8,
+      "loss": 0.011800609529018402,
+      "val_mae": 0.08722348404671791
+    }
+  ],
+  "coverage": {
+    "train": {
+      "requested_rows": 82,
+      "kept_rows": 82,
+      "dropped_rows": 0
+    },
+    "val": {
+      "requested_rows": 1024,
+      "kept_rows": 1022,
+      "dropped_rows": 2
+    },
+    "test": {
+      "requested_rows": 2048,
+      "kept_rows": 2048,
+      "dropped_rows": 0
+    },
+    "graph_converter": {
+      "type": "CrystalGraph",
+      "cutoff": 5.0
+    }
+  },
+  "runtime_s": 602.4726312709972
+}

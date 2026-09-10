@@ -1,0 +1,11 @@
+{
+  "generated": "2026-09-04",
+  "planned_runs_csv": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/planned_runs.csv",
+  "results_csv": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/results.csv",
+  "best_by_val_csv": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/best_by_val.csv",
+  "report_md": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/README.md",
+  "n_planned_runs": 3,
+  "n_completed_runs": 3,
+  "python_bin": "<PROJECT_ROOT>/.venvs/invdes_megnet/bin/python",
+  "train_script": "<SOURCE_REPO>/scripts/finetune_invdesflow_megnet_mp2019_v8.py"
+}

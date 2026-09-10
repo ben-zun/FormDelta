@@ -1,0 +1,54 @@
+{
+  "baseline": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620622,
+      "median_abs_mev_atom": 28.03332455859242,
+      "p90_abs_mev_atom": 158.61420971424806,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "p99_abs_mev_atom": 942.3049437263066,
+      "bias_mev_atom": -58.24372909928779,
+      "r2": 0.9273599772615706
+    }
+  },
+  "finetuned": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 86.59616594333538,
+      "rmse_mev_atom": 272.366691357461,
+      "median_abs_mev_atom": 47.92241643797049,
+      "p90_abs_mev_atom": 139.76211365443956,
+      "p95_abs_mev_atom": 218.62331914838444,
+      "p99_abs_mev_atom": 740.9768376742285,
+      "bias_mev_atom": 3.7215303803329505,
+      "r2": 0.9430340147515287
+    }
+  },
+  "best_checkpoint": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/full_ft_frac010_seed20260528_testonly/callbacks/val_mae_00007_0.086867.hdf5",
+  "evaluation_model": "in_memory_last_epoch",
+  "checkpoint_reload_boundary": "best checkpoint not used for evaluation; legacy MEGNet/Keras activation serialization is brittle under this runtime",
+  "last_model": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/full_ft_frac010_seed20260528_testonly/finetuned_last_model.hdf5",
+  "coverage": {
+    "train": {
+      "requested_rows": 819,
+      "kept_rows": 819,
+      "dropped_rows": 0
+    },
+    "val": {
+      "requested_rows": 1024,
+      "kept_rows": 1022,
+      "dropped_rows": 2
+    },
+    "test": {
+      "requested_rows": 2048,
+      "kept_rows": 2048,
+      "dropped_rows": 0
+    },
+    "graph_converter": {
+      "type": "CrystalGraph",
+      "cutoff": 5.0
+    }
+  },
+  "runtime_s": 864.9048692509969
+}

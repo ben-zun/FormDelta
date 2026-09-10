@@ -1,0 +1,98 @@
+{
+  "baseline": {
+    "train": {
+      "n": 4096,
+      "mae_mev_atom": 84.73515695999897,
+      "rmse_mev_atom": 294.3779040645258,
+      "median_abs_mev_atom": 29.817879014816945,
+      "p90_abs_mev_atom": 155.06861476159693,
+      "p95_abs_mev_atom": 274.3308902183423,
+      "p99_abs_mev_atom": 1155.0866317362152,
+      "bias_mev_atom": -58.57372965016423,
+      "r2": 0.9344863459116437
+    },
+    "val": {
+      "n": 1022,
+      "mae_mev_atom": 87.29621987891932,
+      "rmse_mev_atom": 337.0296119733361,
+      "median_abs_mev_atom": 27.13917392624765,
+      "p90_abs_mev_atom": 143.91652547734256,
+      "p95_abs_mev_atom": 299.75561308117494,
+      "p99_abs_mev_atom": 942.2105727934648,
+      "bias_mev_atom": -59.05712850629312,
+      "r2": 0.916952571080435
+    },
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620622,
+      "median_abs_mev_atom": 28.03332455859242,
+      "p90_abs_mev_atom": 158.61420971424806,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "p99_abs_mev_atom": 942.3049437263066,
+      "bias_mev_atom": -58.24372909928779,
+      "r2": 0.9273599772615706
+    }
+  },
+  "finetuned": {
+    "train": {
+      "n": 4096,
+      "mae_mev_atom": 84.27350322406751,
+      "rmse_mev_atom": 245.85090852059173,
+      "median_abs_mev_atom": 45.764652526794514,
+      "p90_abs_mev_atom": 137.97423252128422,
+      "p95_abs_mev_atom": 224.89344725807234,
+      "p99_abs_mev_atom": 936.4413808564613,
+      "bias_mev_atom": -3.05887306109383,
+      "r2": 0.9543053830918847
+    },
+    "val": {
+      "n": 1022,
+      "mae_mev_atom": 91.74285433546656,
+      "rmse_mev_atom": 285.70751097033747,
+      "median_abs_mev_atom": 48.022408199393354,
+      "p90_abs_mev_atom": 136.1089751838342,
+      "p95_abs_mev_atom": 248.89355557860446,
+      "p99_abs_mev_atom": 846.5790231370729,
+      "bias_mev_atom": -4.272882768273444,
+      "r2": 0.9403193717473181
+    },
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 86.39546220513863,
+      "rmse_mev_atom": 271.92559796350673,
+      "median_abs_mev_atom": 46.732672533293105,
+      "p90_abs_mev_atom": 140.017252859324,
+      "p95_abs_mev_atom": 217.7818879874452,
+      "p99_abs_mev_atom": 888.2078697305108,
+      "bias_mev_atom": -3.691073668689825,
+      "r2": 0.9432183763047476
+    }
+  },
+  "best_checkpoint": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/full_ft_frac050_seed20260528/callbacks/val_mae_00007_0.091552.hdf5",
+  "evaluation_model": "in_memory_last_epoch",
+  "checkpoint_reload_boundary": "best checkpoint not used for evaluation; legacy MEGNet/Keras activation serialization is brittle under this runtime",
+  "last_model": "<RUNS_ROOT>/invdesflow_single_model_study_20260904/scaling/full_ft_frac050_seed20260528/finetuned_last_model.hdf5",
+  "coverage": {
+    "train": {
+      "requested_rows": 4096,
+      "kept_rows": 4096,
+      "dropped_rows": 0
+    },
+    "val": {
+      "requested_rows": 1024,
+      "kept_rows": 1022,
+      "dropped_rows": 2
+    },
+    "test": {
+      "requested_rows": 2048,
+      "kept_rows": 2048,
+      "dropped_rows": 0
+    },
+    "graph_converter": {
+      "type": "CrystalGraph",
+      "cutoff": 5.0
+    }
+  },
+  "runtime_s": 2660.7594543649902
+}
