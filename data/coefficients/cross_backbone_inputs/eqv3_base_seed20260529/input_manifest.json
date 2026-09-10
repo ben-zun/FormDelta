@@ -1,0 +1,140 @@
+{
+  "created_at": "2026-09-09T19:51:39+09:00",
+  "run_spec": {
+    "run_id": "eqv3_base_seed20260529",
+    "family": "eqv3_base",
+    "model": "EqV3",
+    "seed": 20260529,
+    "source_predictions": "<RUNS_ROOT>/eqv3_matched_benchmark_20260725/calibration/calibrated_predictions.csv",
+    "reference_col": "pred_affine_energy_composition",
+    "feature_cache": "<RUNS_ROOT>/official_benchmark_214/matbench_e_form_5fold/fold0/cache/composition_features.csv",
+    "structure_cache": "<RUNS_ROOT>/eqv3_matched_benchmark_20260725/structure_cache/structure_metadata.csv",
+    "source_kind": "train_only_calibrated_reference",
+    "lora_checkpoint": "",
+    "notes": "train-only calibrated frozen EqV3 affine reference; primary-missing rows filtered."
+  },
+  "canonical_contract": {
+    "reference_definition": "R(x) is the selected frozen/train-only-calibrated prediction copied into model_energy_per_atom with identity coefficients.",
+    "reference_col": "pred_affine_energy_composition",
+    "identity_coefficients": "<RUNS_ROOT>/canonical_formdelta_protocol_20260909/inputs/eqv3_base_seed20260529/identity_calibration_coefficients.csv",
+    "primary_missing_branch": "off; rows with primary_missing > 0.5 are filtered before training",
+    "independent_unit_for_bootstrap": "structure row"
+  },
+  "paths": {
+    "input_csv": "<RUNS_ROOT>/canonical_formdelta_protocol_20260909/inputs/eqv3_base_seed20260529/calibrated_predictions.csv",
+    "coefficient_csv": "<RUNS_ROOT>/canonical_formdelta_protocol_20260909/inputs/eqv3_base_seed20260529/identity_calibration_coefficients.csv",
+    "feature_cache": "<RUNS_ROOT>/official_benchmark_214/matbench_e_form_5fold/fold0/cache/composition_features.csv",
+    "structure_cache": "<RUNS_ROOT>/eqv3_matched_benchmark_20260725/structure_cache/structure_metadata.csv",
+    "source_predictions": "<RUNS_ROOT>/eqv3_matched_benchmark_20260725/calibration/calibrated_predictions.csv",
+    "lora_checkpoint": ""
+  },
+  "counts": {
+    "source": {
+      "train": 8192,
+      "val": 1024,
+      "test": 2048,
+      "total": 11264
+    },
+    "canonical": {
+      "train": 8175,
+      "val": 1022,
+      "test": 2043,
+      "total": 11240
+    },
+    "drop_reasons": {
+      "non_train_val_test_split": 0,
+      "nonfinite_y_true": 0,
+      "nonfinite_reference": 0,
+      "nonfinite_natoms": 0,
+      "nonfinite_nelements": 0,
+      "primary_missing_filtered": 24,
+      "total_dropped": 24
+    }
+  },
+  "leakage_audit": {
+    "independent_unit": "structure row",
+    "central_leakage_keys": [
+      "id",
+      "cif_path"
+    ],
+    "formula_overlap_is_reported_not_failed": true,
+    "pass": true,
+    "details": {
+      "id": {
+        "key": "id",
+        "available": true,
+        "duplicate_rows_within_split": 0,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "train_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "val_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          }
+        }
+      },
+      "cif_path": {
+        "key": "cif_path",
+        "available": true,
+        "duplicate_rows_within_split": 0,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "train_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "val_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          }
+        }
+      },
+      "formula": {
+        "key": "formula",
+        "available": true,
+        "duplicate_rows_within_split": 1021,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 113,
+            "examples": [
+              "Ag2Te",
+              "Al(HO)3",
+              "AlCuO3",
+              "AlPO4",
+              "BaH8PtC4(NO)4"
+            ]
+          },
+          "train_vs_test": {
+            "n_overlap": 165,
+            "examples": [
+              "Ac3Yb",
+              "Al(NiO2)2",
+              "As2O3",
+              "Ba3Sr",
+              "BaO"
+            ]
+          },
+          "val_vs_test": {
+            "n_overlap": 30,
+            "examples": [
+              "CdI2",
+              "CeSe2",
+              "CrN2",
+              "Er2Si2O7",
+              "KH3(SeO3)2"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

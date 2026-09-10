@@ -1,0 +1,83 @@
+{
+  "independent_unit": "structure row",
+  "central_leakage_keys": [
+    "id",
+    "cif_path"
+  ],
+  "formula_overlap_is_reported_not_failed": true,
+  "pass": true,
+  "details": {
+    "id": {
+      "key": "id",
+      "available": true,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "cif_path": {
+      "key": "cif_path",
+      "available": true,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "formula": {
+      "key": "formula",
+      "available": true,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 1471,
+          "examples": [
+            "Ag2Th",
+            "Ag3Sn",
+            "AgI2Cs",
+            "AgLa",
+            "AgSnTe2"
+          ]
+        },
+        "train_vs_test": {
+          "n_overlap": 1486,
+          "examples": [
+            "Ag2Ba",
+            "Ag3Cd",
+            "AgLaPb",
+            "AgPbU",
+            "AgTe2"
+          ]
+        },
+        "val_vs_test": {
+          "n_overlap": 329,
+          "examples": [
+            "Al2Mn",
+            "Al2Se3",
+            "Al2Si2Y",
+            "AlAu",
+            "AlBr3Rb"
+          ]
+        }
+      }
+    }
+  }
+}

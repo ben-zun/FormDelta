@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-09T22:32:00+09:00",
+  "source": {
+    "matris_energy": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_matris_energy.csv",
+    "manifest": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_manifest.csv",
+    "feature_cache": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_composition_features.csv",
+    "structure_cache": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_structure_metadata.csv"
+  },
+  "target_contract": {
+    "target": "published WBM formation_energy_per_atom_ev from manifest",
+    "fixed_anchor": "train-only MatRIS affine calibration copied into model_energy_per_atom with identity coefficients",
+    "foundation_inference_rerun": false,
+    "independent_unit_for_bootstrap": "structure row"
+  },
+  "paths": {
+    "canonical_input_csv": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/canonical_affine_input.csv",
+    "baseline_csv": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/corrected_calibrated_predictions.csv",
+    "coefficient_csv": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/corrected_calibration_coefficients.csv",
+    "identity_coefficient_csv": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/identity_affine_coefficients.csv",
+    "feature_cache": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_composition_features.csv",
+    "structure_cache": "<RUNS_ROOT>/protocol_conditioned_20260530/wbm50k_protocol/wbm50k_structure_metadata.csv",
+    "baseline_metrics": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/baseline_metrics.csv",
+    "leakage_audit": "<RUNS_ROOT>/wbm_canonical_before_after_20260909/inputs/leakage_audit.json"
+  },
+  "counts": {
+    "train": 40000,
+    "val": 5000,
+    "test": 5000,
+    "total": 50000
+  },
+  "leakage_audit": {
+    "independent_unit": "structure row",
+    "central_leakage_keys": [
+      "id",
+      "cif_path"
+    ],
+    "formula_overlap_is_reported_not_failed": true,
+    "pass": true,
+    "details": {
+      "id": {
+        "key": "id",
+        "available": true,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "train_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "val_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          }
+        }
+      },
+      "cif_path": {
+        "key": "cif_path",
+        "available": true,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "train_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          },
+          "val_vs_test": {
+            "n_overlap": 0,
+            "examples": []
+          }
+        }
+      },
+      "formula": {
+        "key": "formula",
+        "available": true,
+        "pairs": {
+          "train_vs_val": {
+            "n_overlap": 1471,
+            "examples": [
+              "Ag2Th",
+              "Ag3Sn",
+              "AgI2Cs",
+              "AgLa",
+              "AgSnTe2"
+            ]
+          },
+          "train_vs_test": {
+            "n_overlap": 1486,
+            "examples": [
+              "Ag2Ba",
+              "Ag3Cd",
+              "AgLaPb",
+              "AgPbU",
+              "AgTe2"
+            ]
+          },
+          "val_vs_test": {
+            "n_overlap": 329,
+            "examples": [
+              "Al2Mn",
+              "Al2Se3",
+              "Al2Si2Y",
+              "AlAu",
+              "AlBr3Rb"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

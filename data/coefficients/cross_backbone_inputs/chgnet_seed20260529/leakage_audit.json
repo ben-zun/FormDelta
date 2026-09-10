@@ -1,0 +1,86 @@
+{
+  "independent_unit": "structure row",
+  "central_leakage_keys": [
+    "id",
+    "cif_path"
+  ],
+  "formula_overlap_is_reported_not_failed": true,
+  "pass": true,
+  "details": {
+    "id": {
+      "key": "id",
+      "available": true,
+      "duplicate_rows_within_split": 0,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "cif_path": {
+      "key": "cif_path",
+      "available": true,
+      "duplicate_rows_within_split": 0,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "formula": {
+      "key": "formula",
+      "available": true,
+      "duplicate_rows_within_split": 1021,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 113,
+          "examples": [
+            "Ag2Te",
+            "Al(HO)3",
+            "AlCuO3",
+            "AlPO4",
+            "BaH8PtC4(NO)4"
+          ]
+        },
+        "train_vs_test": {
+          "n_overlap": 165,
+          "examples": [
+            "Ac3Yb",
+            "Al(NiO2)2",
+            "As2O3",
+            "Ba3Sr",
+            "BaO"
+          ]
+        },
+        "val_vs_test": {
+          "n_overlap": 30,
+          "examples": [
+            "CdI2",
+            "CeSe2",
+            "CrN2",
+            "Er2Si2O7",
+            "KH3(SeO3)2"
+          ]
+        }
+      }
+    }
+  }
+}

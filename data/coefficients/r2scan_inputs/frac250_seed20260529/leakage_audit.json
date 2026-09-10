@@ -1,0 +1,86 @@
+{
+  "independent_unit": "structure row",
+  "central_leakage_keys": [
+    "id",
+    "cif_path"
+  ],
+  "formula_overlap_is_reported_not_failed": true,
+  "pass": true,
+  "details": {
+    "id": {
+      "key": "id",
+      "available": true,
+      "duplicate_rows_within_split": 0,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "cif_path": {
+      "key": "cif_path",
+      "available": true,
+      "duplicate_rows_within_split": 0,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "train_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        },
+        "val_vs_test": {
+          "n_overlap": 0,
+          "examples": []
+        }
+      }
+    },
+    "formula": {
+      "key": "formula",
+      "available": true,
+      "duplicate_rows_within_split": 6422,
+      "pairs": {
+        "train_vs_val": {
+          "n_overlap": 601,
+          "examples": [
+            "AcMg3",
+            "AcNd3",
+            "AcPm3",
+            "AcSm3",
+            "Ag2S"
+          ]
+        },
+        "train_vs_test": {
+          "n_overlap": 634,
+          "examples": [
+            "Ac2S3",
+            "Ac3Y",
+            "AcY3",
+            "Ag2S",
+            "AgAu"
+          ]
+        },
+        "val_vs_test": {
+          "n_overlap": 156,
+          "examples": [
+            "AcF3",
+            "Ag2S",
+            "AgPd",
+            "AgPdO2",
+            "Al2O3"
+          ]
+        }
+      }
+    }
+  }
+}
