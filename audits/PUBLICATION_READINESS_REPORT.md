@@ -2,13 +2,15 @@
 
 Generated: 2026-09-10
 
-Tracked files in snapshot: 12042
+Tracked files in snapshot: 12043
 
-Total size: 901.0 MiB
+Tracked file payload size: 771.2 MiB
 
 ## Complete or directly present
 
 Most implementation, configuration, MEGNet main predictions, exact split manifests, residual checkpoints, audit summaries, result tables, and paper result mappings are present.
+
+For GitHub transport reliability, the three largest local CSV artifacts are committed as `.csv.gz`: `data/cache/composition_features.csv.gz`, `data/cache/structure_metadata.csv.gz`, and `data/manifests/historical_dataset_manifest_20260626.csv.gz`. Run `bash scripts/materialize_large_csvs.sh` to restore the original `.csv` filenames after cloning.
 
 ## Validation performed on this snapshot
 
