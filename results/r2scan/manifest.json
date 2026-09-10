@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-09T20:35:37+09:00",
+  "out_root": "<RUNS_ROOT>/npj_r2scan_protocol_20260909",
+  "source_predictions": "<PROJECT_ROOT>/reports/provider_bakeoff/omat24_eqv3_round4_widechem_r20260708_v1/meta_gga_r2scan/calibrated_predictions.csv",
+  "source_feature_cache": "<PROJECT_ROOT>/reports/provider_bakeoff/omat24_eqv3_round4_widechem_r20260708_v1/meta_gga_r2scan/composition_features.csv",
+  "structure_cache": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/cache/meta_gga_r2scan_structure_metadata.csv",
+  "fractions": [
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "seeds": [
+    20260528,
+    20260529,
+    20260530
+  ],
+  "methods": [
+    "classical_delta",
+    "formdelta",
+    "feature_stacking",
+    "target_only"
+  ],
+  "tables": {
+    "summary_by_run": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/summary_by_run.csv",
+    "aggregate_by_method_fraction": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/aggregate_by_method_fraction.csv",
+    "paired_bootstrap_test": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/paired_bootstrap_test.csv",
+    "config_audit": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/config_audit.csv",
+    "leakage_audit": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/leakage_audit.csv",
+    "latent_feature_availability": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/latent_feature_availability.csv",
+    "job_status": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/job_status.csv",
+    "cost_accounting": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/cost_accounting.csv",
+    "report": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/reports/npj_r2scan_protocol_report.md"
+  }
+}

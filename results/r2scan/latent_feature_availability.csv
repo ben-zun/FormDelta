@@ -1,0 +1,2 @@
+baseline,availability,path,decision
+latent_feature_delta_learning,not_available_from_local_r2scan_cache,,not run; no r2SCAN split-aligned latent representation cache was found locally

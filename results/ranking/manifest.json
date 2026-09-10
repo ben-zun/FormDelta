@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-10T01:05:38+09:00",
+  "out_root": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909",
+  "protocol": {
+    "experiment": "r2SCAN canonical FormDelta ranking-aware lambda sweep",
+    "rank_weights": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "seeds": [
+      20260528,
+      20260529,
+      20260530
+    ],
+    "lambda0_source": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/runs/formdelta",
+    "rank_loss": {
+      "margin_mev": 20.0,
+      "pair_mode": "all_pairs",
+      "temperature": 0.03,
+      "pairs_per_epoch": 20000,
+      "bootstrap_samples": 10000
+    },
+    "independent_units": {
+      "formation_energy_bootstrap": "structure row",
+      "ranking_bootstrap": "formula group"
+    },
+    "reused": {
+      "foundation_predictions": true,
+      "feature_cache": "<PROJECT_ROOT>/reports/provider_bakeoff/omat24_eqv3_round4_widechem_r20260708_v1/meta_gga_r2scan/composition_features.csv",
+      "structure_cache": "<RUNS_ROOT>/npj_r2scan_protocol_20260909/cache/meta_gga_r2scan_structure_metadata.csv"
+    }
+  },
+  "tables": {
+    "job_status": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/job_status.csv",
+    "summary_by_run": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/summary_by_run.csv",
+    "aggregate_by_rank_weight_split": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/aggregate_by_rank_weight_split.csv",
+    "ranking_summary_by_run": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/ranking_summary_by_run.csv",
+    "formula_group_metrics": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/formula_group_metrics.csv",
+    "aggregate_ranking_by_method_family": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/aggregate_ranking_by_method_family.csv",
+    "paired_bootstrap_mae_vs_lambda0": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/paired_bootstrap_mae_vs_lambda0.csv",
+    "paired_bootstrap_ranking_vs_lambda0": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/paired_bootstrap_ranking_vs_lambda0.csv",
+    "config_audit": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/config_audit.csv",
+    "leakage_audit": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/leakage_audit.csv",
+    "cost_accounting": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/cost_accounting.csv"
+  },
+  "reports": {
+    "report": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/reports/r2scan_rank_weight_sweep_report.md"
+  }
+}

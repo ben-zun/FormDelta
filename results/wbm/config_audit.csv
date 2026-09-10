@@ -1,0 +1,7 @@
+run_id,method,seed,protocol_pass,violations,trainable_params,total_params
+simple_residual_seed20260528,simple_residual,20260528,True,,,
+canonical_formdelta_seed20260528,canonical_formdelta,20260528,True,,498404.0,498643.0
+simple_residual_seed20260529,simple_residual,20260529,True,,,
+canonical_formdelta_seed20260529,canonical_formdelta,20260529,True,,498404.0,498643.0
+simple_residual_seed20260530,simple_residual,20260530,True,,,
+canonical_formdelta_seed20260530,canonical_formdelta,20260530,True,,498404.0,498643.0

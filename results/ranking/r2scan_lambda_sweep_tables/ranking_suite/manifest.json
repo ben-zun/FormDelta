@@ -1,0 +1,33 @@
+{
+  "generated": "2026-09-04",
+  "split": "test",
+  "near_degenerate_threshold_mev": 25.0,
+  "summary_csv": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/ranking_suite/ranking_summary.csv",
+  "formula_group_metrics_csv": "<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/ranking_suite/formula_group_metrics.csv",
+  "methods": [
+    "raw_seed20260528",
+    "element_reference_seed20260528",
+    "affine_energy_composition_seed20260528",
+    "composition_only_linear_seed20260528",
+    "raw_seed20260529",
+    "element_reference_seed20260529",
+    "affine_energy_composition_seed20260529",
+    "composition_only_linear_seed20260529",
+    "raw_seed20260530",
+    "element_reference_seed20260530",
+    "affine_energy_composition_seed20260530",
+    "composition_only_linear_seed20260530",
+    "rankw000_seed20260528",
+    "rankw000_seed20260529",
+    "rankw000_seed20260530",
+    "rankw005_seed20260528",
+    "rankw005_seed20260529",
+    "rankw005_seed20260530",
+    "rankw010_seed20260528",
+    "rankw010_seed20260529",
+    "rankw010_seed20260530",
+    "rankw020_seed20260528",
+    "rankw020_seed20260529",
+    "rankw020_seed20260530"
+  ]
+}

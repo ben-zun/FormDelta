@@ -1,0 +1,289 @@
+run_id,method,fraction,seed,runtime_s,gpu_hours,trainable_params,total_params,test_mae_mev_atom,gpu_inventory,foundation_inference_rerun,notes
+classical_delta_frac010_seed20260528,classical_delta,0.01,20260528,14.560143947601318,0.004044484429889255,,,126.19652634489952,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac010_seed20260529,classical_delta,0.01,20260529,12.934197664260864,0.003592832684516907,,,115.80805644332744,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac010_seed20260530,classical_delta,0.01,20260530,18.248783826828003,0.0050691066185633345,,,112.93675204282516,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac010_seed20260528,feature_stacking,0.01,20260528,27.47236728668213,0.007631213135189481,498404.0,498643.0,189.20861487783185,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac010_seed20260529,feature_stacking,0.01,20260529,24.5966739654541,0.0068324094348483615,498404.0,498643.0,196.02263792346469,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac010_seed20260530,feature_stacking,0.01,20260530,20.409746646881104,0.005669374068578085,498404.0,498643.0,194.93914743178505,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac010_seed20260528,formdelta,0.01,20260528,21.772406816482544,0.0060478907823562624,498404.0,498643.0,146.80571232875693,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac010_seed20260529,formdelta,0.01,20260529,15.328776836395264,0.004257993565665351,498404.0,498643.0,150.5355172699326,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac010_seed20260530,formdelta,0.01,20260530,15.879932165145874,0.004411092268096076,498404.0,498643.0,143.84138643603166,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac010_seed20260528,target_only,0.01,20260528,27.1427960395813,0.0075396655665503605,498404.0,498643.0,471.8769875293811,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac010_seed20260529,target_only,0.01,20260529,24.02423357963562,0.00667339821656545,498404.0,498643.0,499.14134033186093,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac010_seed20260530,target_only,0.01,20260530,34.79147934913635,0.009664299819204542,498404.0,498643.0,482.65661060002054,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac050_seed20260528,classical_delta,0.05,20260528,22.134459257125854,0.006148460904757182,,,52.10015247518975,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac050_seed20260529,classical_delta,0.05,20260529,14.794293642044067,0.0041095260116789075,,,46.23942004274069,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac050_seed20260530,classical_delta,0.05,20260530,23.22536301612854,0.006451489726702372,,,45.475632771369334,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac050_seed20260528,feature_stacking,0.05,20260528,30.489996671676636,0.008469443519910176,498404.0,498643.0,112.05470882386778,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac050_seed20260529,feature_stacking,0.05,20260529,30.41432476043701,0.008448423544565837,498404.0,498643.0,115.3099435747008,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac050_seed20260530,feature_stacking,0.05,20260530,28.037615537643433,0.007788226538234287,498404.0,498643.0,108.00269753907217,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac050_seed20260528,formdelta,0.05,20260528,36.2171516418457,0.010060319900512696,498404.0,498643.0,82.18275738005065,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac050_seed20260529,formdelta,0.05,20260529,22.220094442367554,0.0061722484562132095,498404.0,498643.0,81.97914684167107,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac050_seed20260530,formdelta,0.05,20260530,26.700926065444946,0.00741692390706804,498404.0,498643.0,81.55161492632222,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac050_seed20260528,target_only,0.05,20260528,25.65440011024475,0.007126222252845764,498404.0,498643.0,352.57011637045747,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac050_seed20260529,target_only,0.05,20260529,35.117125272750854,0.00975475702020857,498404.0,498643.0,352.00281554448355,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac050_seed20260530,target_only,0.05,20260530,33.605138301849365,0.009334760639402601,498404.0,498643.0,346.50522159417005,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac100_seed20260528,classical_delta,0.1,20260528,22.99923038482666,0.006388675106896295,,,33.663110775328136,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac100_seed20260529,classical_delta,0.1,20260529,25.109437227249146,0.006974843674235873,,,32.8679740602375,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac100_seed20260530,classical_delta,0.1,20260530,26.489872217178345,0.0073582978381050955,,,32.83454481203733,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac100_seed20260528,feature_stacking,0.1,20260528,35.91848373413086,0.009977356592814127,498404.0,498643.0,84.77827739959694,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac100_seed20260529,feature_stacking,0.1,20260529,38.219733238220215,0.010616592566172282,498404.0,498643.0,86.94814750753763,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac100_seed20260530,feature_stacking,0.1,20260530,43.71460294723511,0.012142945263120862,498404.0,498643.0,84.72301107527827,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac100_seed20260528,formdelta,0.1,20260528,31.76888370513916,0.008824689918094212,498404.0,498643.0,58.28181151202694,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac100_seed20260529,formdelta,0.1,20260529,32.27664303779602,0.008965734177165561,498404.0,498643.0,58.825413474680055,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac100_seed20260530,formdelta,0.1,20260530,32.32523965835571,0.008979233238432142,498404.0,498643.0,58.584426545850434,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac100_seed20260528,target_only,0.1,20260528,39.198763608932495,0.010888545446925694,498404.0,498643.0,268.85546014900416,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac100_seed20260529,target_only,0.1,20260529,40.04546642303467,0.011123740673065185,498404.0,498643.0,280.8424812184696,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac100_seed20260530,target_only,0.1,20260530,44.73063898086548,0.012425177494684855,498404.0,498643.0,265.00446966062464,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac250_seed20260528,classical_delta,0.25,20260528,34.185741901397705,0.009496039417054918,,,23.957311044730734,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac250_seed20260529,classical_delta,0.25,20260529,30.544739961624146,0.00848464998934004,,,24.03536974615565,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac250_seed20260530,classical_delta,0.25,20260530,26.348376989364624,0.00731899360815684,,,24.60445743382699,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac250_seed20260528,feature_stacking,0.25,20260528,55.91447448730469,0.015531798468695747,498404.0,498643.0,58.57786898879047,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac250_seed20260529,feature_stacking,0.25,20260529,53.222468852996826,0.014784019125832451,498404.0,498643.0,57.820045801337336,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac250_seed20260530,feature_stacking,0.25,20260530,61.39369225502014,0.01705380340417226,498404.0,498643.0,58.9972605791755,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac250_seed20260528,formdelta,0.25,20260528,46.814807176589966,0.013004113104608323,498404.0,498643.0,35.05946424899941,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac250_seed20260529,formdelta,0.25,20260529,59.33287072181702,0.016481352978282505,498404.0,498643.0,35.573162272703044,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac250_seed20260530,formdelta,0.25,20260530,55.47362494468689,0.015409340262413024,498404.0,498643.0,35.87515599582194,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac250_seed20260528,target_only,0.25,20260528,61.74861001968384,0.0171523916721344,498404.0,498643.0,170.39440286777378,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac250_seed20260529,target_only,0.25,20260529,51.74274134635925,0.014372983707322014,498404.0,498643.0,176.98160149132167,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac250_seed20260530,target_only,0.25,20260530,63.124000787734985,0.017534444663259718,498404.0,498643.0,164.62130853897293,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac500_seed20260528,classical_delta,0.5,20260528,43.31511878967285,0.012031977441575793,,,20.107208821986394,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac500_seed20260529,classical_delta,0.5,20260529,51.37040853500366,0.014269557926389906,,,19.55738487868349,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac500_seed20260530,classical_delta,0.5,20260530,45.14487290382385,0.012540242473284403,,,21.18398293264711,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac500_seed20260528,feature_stacking,0.5,20260528,87.70668244361877,0.02436296734544966,498404.0,498643.0,39.124158218722854,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac500_seed20260529,feature_stacking,0.5,20260529,76.17761039733887,0.021160447332594128,498404.0,498643.0,40.016321505434476,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac500_seed20260530,feature_stacking,0.5,20260530,102.12131404876709,0.02836703168021308,498404.0,498643.0,40.041249623822644,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac500_seed20260528,formdelta,0.5,20260528,81.30051517486572,0.0225834764374627,498404.0,498643.0,24.702143959388547,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac500_seed20260529,formdelta,0.5,20260529,78.61405563354492,0.0218372376759847,498404.0,498643.0,25.6744861114802,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac500_seed20260530,formdelta,0.5,20260530,104.20361328125,0.028945448133680555,498404.0,498643.0,25.343315501599875,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac500_seed20260528,target_only,0.5,20260528,89.17491507530212,0.02477080974313948,498404.0,498643.0,104.67421545293122,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac500_seed20260529,target_only,0.5,20260529,79.61556077003479,0.022115433547231885,498404.0,498643.0,106.9195574570139,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac500_seed20260530,target_only,0.5,20260530,101.5998547077179,0.02822218186325497,498404.0,498643.0,101.81582289829524,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac1000_seed20260528,classical_delta,1.0,20260528,72.64619827270508,0.020179499520195855,,,16.51957129968837,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac1000_seed20260529,classical_delta,1.0,20260529,66.35910701751709,0.018433085282643636,,,16.398684857351036,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+classical_delta_frac1000_seed20260530,classical_delta,1.0,20260530,71.27916550636292,0.01979976819621192,,,16.356084222197758,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac1000_seed20260528,feature_stacking,1.0,20260528,139.8671383857727,0.03885198288493686,498404.0,498643.0,30.30341706485277,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac1000_seed20260529,feature_stacking,1.0,20260529,154.4359953403473,0.04289888759454091,498404.0,498643.0,30.158892579965812,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+feature_stacking_frac1000_seed20260530,feature_stacking,1.0,20260530,133.8099160194397,0.037169421116511024,498404.0,498643.0,30.40541035793374,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac1000_seed20260528,formdelta,1.0,20260528,139.47634959220886,0.03874343044228024,498404.0,498643.0,17.431064690047823,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac1000_seed20260529,formdelta,1.0,20260529,136.33540058135986,0.03787094460593329,498404.0,498643.0,18.189015082606574,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+formdelta_frac1000_seed20260530,formdelta,1.0,20260530,139.10653424263,0.03864070395628611,498404.0,498643.0,17.796354259133384,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac1000_seed20260528,target_only,1.0,20260528,141.8410964012146,0.03940030455589295,498404.0,498643.0,65.94963373425024,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac1000_seed20260529,target_only,1.0,20260529,158.79215264320374,0.044108931289778816,498404.0,498643.0,65.96512582946986,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused
+target_only_frac1000_seed20260530,target_only,1.0,20260530,79.85955381393433,0.022183209392759536,498404.0,498643.0,65.17902151940137,"0, NVIDIA GeForce RTX 4090, 24564 MiB
+1, NVIDIA GeForce RTX 4090, 24564 MiB
+2, NVIDIA GeForce RTX 4090, 24564 MiB
+3, NVIDIA GeForce RTX 4090, 24564 MiB",False,wall-clock runtime from driver job_status; foundation predictions and caches reused

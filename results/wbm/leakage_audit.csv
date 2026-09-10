@@ -1,0 +1,10 @@
+key,split_pair,n_overlap,examples,is_fail_key,audit_pass
+id,train_vs_val,0,,True,True
+id,train_vs_test,0,,True,True
+id,val_vs_test,0,,True,True
+cif_path,train_vs_val,0,,True,True
+cif_path,train_vs_test,0,,True,True
+cif_path,val_vs_test,0,,True,True
+formula,train_vs_val,1471,Ag2Th;Ag3Sn;AgI2Cs;AgLa;AgSnTe2,False,True
+formula,train_vs_test,1486,Ag2Ba;Ag3Cd;AgLaPb;AgPbU;AgTe2,False,True
+formula,val_vs_test,329,Al2Mn;Al2Se3;Al2Si2Y;AlAu;AlBr3Rb,False,True
