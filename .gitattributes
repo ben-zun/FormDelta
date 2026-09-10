@@ -10,3 +10,4 @@
 *.hdf5 binary
 *.png binary
 *.pdf binary
+*.gz binary

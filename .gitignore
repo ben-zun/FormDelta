@@ -8,3 +8,8 @@ external_data/formation_energy/mp.2018.6.1.json
 .pytest_cache/
 .env
 *.log
+
+# Large CSV artifacts are committed as .csv.gz for GitHub transport.
+data/cache/composition_features.csv
+data/cache/structure_metadata.csv
+data/manifests/historical_dataset_manifest_20260626.csv

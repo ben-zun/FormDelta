@@ -36,6 +36,12 @@ bash reproduce_from_predictions.sh
 
 This read-only path checks the included MEGNet per-sample prediction table, config audits, leakage audits, and locked result tables. Full foundation-model inference is intentionally not rerun.
 
+Some large CSV caches are stored as `.csv.gz` files to keep GitHub transport reliable. To materialize the original CSV filenames after cloning:
+
+```bash
+bash scripts/materialize_large_csvs.sh
+```
+
 ## Retrain residual adapters
 
 ```bash
