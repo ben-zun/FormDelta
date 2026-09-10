@@ -1,0 +1,10 @@
+# Main FE-GX/direct-reference reproduction stack.
+# Recorded reference environment: Python 3.11.15; see docs/python_environment_inventory_latest.md.
+numpy
+pandas
+scikit-learn
+torch
+pymatgen
+matplotlib
+tabulate
+ijson

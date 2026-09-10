@@ -1,0 +1,20 @@
+name: formdelta-paper
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - pymatgen
+  - matplotlib
+  - seaborn
+  - pytest
+  - pip
+  - pip:
+      - matbench-discovery==1.3.1
+      - megnet==1.3.2
+      - tensorflow==2.15.1
+      - keras==2.15.0

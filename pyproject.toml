@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formdelta"
+version = "1.0.0"
+description = "Residual adaptation of pretrained materials models for formation-energy prediction."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "torch",
+  "pymatgen",
+]
+
+[tool.setuptools.packages.find]
+include = ["formdelta*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

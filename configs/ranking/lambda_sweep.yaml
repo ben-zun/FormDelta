@@ -1,0 +1,12 @@
+dataset: r2scan full-label same-formula ranking screen
+rank_weights:
+  - 0.0
+  - 0.05
+  - 0.10
+  - 0.20
+seeds:
+  - 20260528
+  - 20260529
+  - 20260530
+near_degenerate_threshold_mev_atom: 25.0
+results: results/ranking/lambda_sweep.csv

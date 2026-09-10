@@ -1,0 +1,4 @@
+scope,available,n_rows,runtime_s_sum,gpu_hours_sum,foundation_inference_rerun_any,source_path
+r2scan_transfer_efficiency,True,72,3972.568701028824,1.1034913058413367,False,<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/cost_accounting.csv
+wbm_before_after,True,6,865.6352679729462,0.24045424110359592,False,<RUNS_ROOT>/wbm_canonical_before_after_20260909/tables/cost_accounting.csv
+ranking_lambda_sweep,True,12,3579.211750268936,0.9942254861858153,False,<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/cost_accounting.csv

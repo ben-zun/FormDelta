@@ -1,0 +1,27 @@
+method: FormDelta
+reference: frozen_or_train_only_calibrated_foundation_prediction
+prediction_formula: y_hat(x) = R(x) + r_hat(x)
+fixed_anchor: true
+hidden_dim: 256
+num_layers: 3
+dropout: 0.05
+activation: SiLU
+normalization: LayerNorm
+loss: SmoothL1
+huber_beta: 0.05
+optimizer: AdamW
+learning_rate: 3.0e-4
+weight_decay: 1.0e-5
+batch_size: 2048
+early_stopping_patience: 30
+canonical_disabled_branches:
+  moe: false
+  dual_foundation: false
+  element_env: false
+  pair_env: false
+  shell_pair_env: false
+  chem_pair_env: false
+  missing_branch: false
+  grouped_adapter: false
+  risk_residual_branch: false
+  tail_features: false

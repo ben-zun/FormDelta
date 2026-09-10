@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use FormDelta, please cite the accompanying paper and this archived repository release."
+title: "FormDelta"
+version: "1.0.0-paper"
+date-released: "2026-09-10"
+repository-code: "AUTHOR_INPUT_NEEDED"
+doi: "AUTHOR_INPUT_NEEDED"
+authors:
+  - family-names: "AUTHOR_INPUT_NEEDED"
+    given-names: "AUTHOR_INPUT_NEEDED"

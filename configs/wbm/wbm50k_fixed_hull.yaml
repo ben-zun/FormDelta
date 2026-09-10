@@ -1,0 +1,7 @@
+dataset: WBM 50k held-out subset
+target: published WBM formation_energy_per_atom_ev
+foundation_inference_rerun: false
+reference: train-only MatRIS affine calibration
+fixed_hull_formula: E_hull_pred = E_hull_DFT + E_f_pred - E_f_DFT
+inputs: data/splits/wbm
+results: results/wbm

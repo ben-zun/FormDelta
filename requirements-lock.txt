@@ -1,0 +1,10 @@
+# AUTHOR_INPUT_NEEDED: replace with pip freeze from the final release environment.
+numpy
+pandas
+scikit-learn
+torch
+pymatgen
+matbench-discovery==1.3.1
+tensorflow==2.15.1
+keras==2.15.0
+megnet==1.3.2

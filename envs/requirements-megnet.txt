@@ -1,0 +1,12 @@
+# Optional MEGNet prediction/fine-tuning stack.
+# Install in a separate Python 3.11 environment if dependency resolution conflicts
+# with the FE-GX/PyTorch stack.
+numpy==1.26.4
+pandas
+scikit-learn
+ase
+tensorflow==2.15.1
+keras==2.15.0
+megnet==1.3.2
+pymatgen
+ijson

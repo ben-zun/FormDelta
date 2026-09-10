@@ -1,0 +1,5 @@
+AUTHOR_INPUT_NEEDED
+
+Choose and insert the final software license before public release. MIT or BSD-3-Clause may be reasonable for original code if compatible with all included dependencies and institutional requirements.
+
+Do not apply this software license to third-party datasets, provider outputs, or foundation-model weights unless those redistribution rights have been confirmed.

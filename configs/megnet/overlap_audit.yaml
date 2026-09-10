@@ -1,0 +1,9 @@
+structure_matcher:
+  ltol: 0.2
+  stol: 0.3
+  angle_tol: 5
+exact_id_overlap_is_namespace_limited: true
+reported_overlap_levels:
+  - structure
+  - formula
+  - chemical_system

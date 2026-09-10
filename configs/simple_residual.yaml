@@ -1,0 +1,10 @@
+method: simple_residual
+reference: frozen_or_train_only_calibrated_foundation_prediction
+prediction_formula: y_hat(x) = R(x) + r_hat(x)
+hidden_dim: 256
+num_layers: 3
+dropout: 0.05
+activation: SiLU
+normalization: LayerNorm
+loss: SmoothL1
+optimizer: AdamW

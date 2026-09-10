@@ -1,0 +1,38 @@
+# Publication Checklist
+
+- present: `README` -> `README.md`. Method, formula, core results, r2SCAN caveat.
+- present: `canonical FormDelta source` -> `formdelta/`. Adapter, reference, features, training, evaluation.
+- present: `canonical YAML/config` -> `configs/canonical_formdelta.yaml`. 3-layer MLP and disabled branch contract.
+- present: `exact MEGNet train/val/test manifests` -> `data/splits/megnet_medium_same_split_269/`. 8192/1024/2048.
+- partial_present: `MEGNet scaling fraction manifests` -> `data/splits/megnet_scaling/`. Available sample manifests copied; deterministic residual fractions documented.
+- present: `MEGNet frozen/simple/FormDelta predictions` -> `results/megnet/predictions/megnet_main_test_predictions.csv`. Narrow test table plus full seed outputs.
+- present: `MEGNet overlap audit manifest` -> `data/manifests/megnet_pretrain_overlap.csv`. Test overlap flags copied.
+- manifested_for_deposit: `cross-backbone foundation prediction caches` -> `data/manifests/large_artifacts_manifest.csv`. Large CSVs listed for LFS/Zenodo.
+- pending_author_input: `backbone checkpoint/version registry` -> `data/manifests/backbone_registry.csv`. Family rows present; official version/hash/license pending.
+- present: `canonical cross-backbone 23-run manifest` -> `results/cross_backbone/run_manifest.csv`. 23-run canonical audit.
+- present: `PBE/GGA to r2SCAN exact splits` -> `data/splits/r2scan/`. Train/val/test and selected-train manifests extracted.
+- present: `r2SCAN six fractions x seeds manifests` -> `data/splits/r2scan/fraction_split_manifest.csv`. 18 fraction/seed directories.
+- present: `r2SCAN baseline code/config` -> `configs/r2scan/`. Raw, reference, delta, stacking, target-only, FormDelta.
+- present: `r2SCAN calibration coefficients` -> `data/coefficients/r2scan_inputs/`. 18 coefficient files and input manifests.
+- manifested_for_deposit: `classical delta and FormDelta predictions` -> `data/manifests/large_artifacts_manifest.csv`. Full prediction CSVs are large; summary tables included.
+- present: `WBM held-out manifest and predictions` -> `data/splits/wbm/ and results/wbm/predictions/`. WBM split and prediction matrix included.
+- present: `fixed-hull evaluation script` -> `wbm_fixed_hull_eval.py and results/wbm/README.md`. Formula and result tables included.
+- present: `same-formula pair manifest` -> `data/manifests/same_formula_pairs.csv`. MEGNet exact test pairs reconstructed.
+- present: `ranking lambda sweep` -> `results/ranking/lambda_sweep.csv`. Negative sweep included.
+- present: `MP to JARVIS supplement` -> `data/manifests/mp_jarvis_matching.csv and results/mp_jarvis/`. Auxiliary cross-source evidence.
+- present: `paired bootstrap` -> `audits/paired_bootstrap_*.csv`. MEGNet/cross-backbone/r2SCAN/WBM.
+- present: `config audit` -> `audits/*config_audit.csv`. Canonical/r2SCAN/WBM/ranking.
+- present: `leakage audit` -> `audits/*leakage_audit.csv`. Central id/cif leakage checks.
+- present: `cost accounting` -> `audits/cost_accounting.csv`. GPU/cost summaries.
+- present: `figure source data` -> `figures/source_data/`. MEGNet figure source data plus closure tables.
+- present: `figure plotting scripts` -> `figures/scripts/plot_megnet_summary.py`. At least one reproducible figure script included.
+- partial_present: `environment lock files` -> `environment.yml, requirements.txt, requirements-lock.txt`. Final pip freeze pending.
+- present_with_license_caveat: `checkpoints or Zenodo links` -> `checkpoints/`. Residual checkpoints included; final archive DOI pending.
+- present: `reproduce_from_predictions.sh` -> `reproduce_from_predictions.sh`. Read-only verification.
+- present: `retrain_adapters.sh` -> `retrain_adapters.sh`. GPU retraining entrypoint.
+- present: `result_mapping.md` -> `paper/result_mapping.md`. Paper-to-file mapping.
+- passed: `pytest smoke tests` -> `tests/`. 4 passed, 1 skipped in a temporary test environment.
+- pending_author_input: `LICENSE` -> `LICENSE`. License placeholder, not invented.
+- pending_author_input: `CITATION.cff` -> `CITATION.cff`. Citation scaffold, DOI/authors pending.
+- pending_release_action: `GitHub release v1.0.0-paper` -> `CODE_AVAILABILITY.md`. Release cannot be created locally without repository owner action.
+- pending_release_action: `Zenodo DOI` -> `DATA_AVAILABILITY.md`. DOI pending final archive.

@@ -1,0 +1,5 @@
+dataset: MP-PBE/GGA provider prediction to MP-r2SCAN formation energy
+method: composition_only_linear
+splits: data/splits/r2scan
+coefficients: data/coefficients/r2scan_inputs
+full_label_summary: results/r2scan/aggregate_by_method_fraction.csv

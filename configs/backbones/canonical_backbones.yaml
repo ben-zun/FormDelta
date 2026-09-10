@@ -1,0 +1,11 @@
+backbones:
+  - MatRIS
+  - EquiformerV3
+  - MACE
+  - SevenNet
+  - CHGNet
+  - ALIGNN
+  - EqV3-LoRA
+protocol: configs/canonical_formdelta.yaml
+run_manifest: results/cross_backbone/run_manifest.csv
+registry: data/manifests/backbone_registry.csv

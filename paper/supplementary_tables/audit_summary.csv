@@ -1,0 +1,9 @@
+scope,audit_type,passed,total,audit_pass,source_path,central_failure_rows
+canonical_cross_backbone,config_protocol,23,23,True,<RUNS_ROOT>/canonical_formdelta_protocol_20260909/tables/config_audit.csv,
+r2scan_transfer_efficiency,config_protocol,72,72,True,<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/config_audit.csv,
+wbm_before_after,config_protocol,6,6,True,<RUNS_ROOT>/wbm_canonical_before_after_20260909/tables/config_audit.csv,
+ranking_lambda_sweep,config_protocol,12,12,True,<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/config_audit.csv,
+canonical_cross_backbone,central_key_leakage,1,1,True,<RUNS_ROOT>/canonical_formdelta_protocol_20260909/tables/leakage_audit.csv,0.0
+r2scan_transfer_efficiency,central_key_leakage,1,1,True,<RUNS_ROOT>/npj_r2scan_protocol_20260909/tables/leakage_audit.csv,0.0
+wbm_before_after,central_key_leakage,1,1,True,<RUNS_ROOT>/wbm_canonical_before_after_20260909/tables/leakage_audit.csv,0.0
+ranking_lambda_sweep,central_key_leakage,1,1,True,<RUNS_ROOT>/r2scan_rank_weight_sweep_20260909/tables/leakage_audit.csv,0.0

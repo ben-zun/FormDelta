@@ -1,0 +1,7 @@
+dataset: medium_same_split_269
+train_rows: 8192
+val_rows: 1024
+test_rows: 2048
+official_matbench_cv: false
+foundation: MEGNet formation-energy checkpoint
+frozen_prediction_file: data/foundation_predictions/megnet_frozen_predictions.csv

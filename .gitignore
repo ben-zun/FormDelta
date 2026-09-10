@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+external_data/formation_energy/mp.2018.6.1.json
+*.pyc
+.pytest_cache/
+.env
+*.log

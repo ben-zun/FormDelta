@@ -1,0 +1,37 @@
+item,status,path,note
+README,present,README.md,"Method, formula, core results, r2SCAN caveat."
+canonical FormDelta source,present,formdelta/,"Adapter, reference, features, training, evaluation."
+canonical YAML/config,present,configs/canonical_formdelta.yaml,3-layer MLP and disabled branch contract.
+exact MEGNet train/val/test manifests,present,data/splits/megnet_medium_same_split_269/,8192/1024/2048.
+MEGNet scaling fraction manifests,partial_present,data/splits/megnet_scaling/,Available sample manifests copied; deterministic residual fractions documented.
+MEGNet frozen/simple/FormDelta predictions,present,results/megnet/predictions/megnet_main_test_predictions.csv,Narrow test table plus full seed outputs.
+MEGNet overlap audit manifest,present,data/manifests/megnet_pretrain_overlap.csv,Test overlap flags copied.
+cross-backbone foundation prediction caches,manifested_for_deposit,data/manifests/large_artifacts_manifest.csv,Large CSVs listed for LFS/Zenodo.
+backbone checkpoint/version registry,pending_author_input,data/manifests/backbone_registry.csv,Family rows present; official version/hash/license pending.
+canonical cross-backbone 23-run manifest,present,results/cross_backbone/run_manifest.csv,23-run canonical audit.
+PBE/GGA to r2SCAN exact splits,present,data/splits/r2scan/,Train/val/test and selected-train manifests extracted.
+r2SCAN six fractions x seeds manifests,present,data/splits/r2scan/fraction_split_manifest.csv,18 fraction/seed directories.
+r2SCAN baseline code/config,present,configs/r2scan/,"Raw, reference, delta, stacking, target-only, FormDelta."
+r2SCAN calibration coefficients,present,data/coefficients/r2scan_inputs/,18 coefficient files and input manifests.
+classical delta and FormDelta predictions,manifested_for_deposit,data/manifests/large_artifacts_manifest.csv,Full prediction CSVs are large; summary tables included.
+WBM held-out manifest and predictions,present,data/splits/wbm/ and results/wbm/predictions/,WBM split and prediction matrix included.
+fixed-hull evaluation script,present,wbm_fixed_hull_eval.py and results/wbm/README.md,Formula and result tables included.
+same-formula pair manifest,present,data/manifests/same_formula_pairs.csv,MEGNet exact test pairs reconstructed.
+ranking lambda sweep,present,results/ranking/lambda_sweep.csv,Negative sweep included.
+MP to JARVIS supplement,present,data/manifests/mp_jarvis_matching.csv and results/mp_jarvis/,Auxiliary cross-source evidence.
+paired bootstrap,present,audits/paired_bootstrap_*.csv,MEGNet/cross-backbone/r2SCAN/WBM.
+config audit,present,audits/*config_audit.csv,Canonical/r2SCAN/WBM/ranking.
+leakage audit,present,audits/*leakage_audit.csv,Central id/cif leakage checks.
+cost accounting,present,audits/cost_accounting.csv,GPU/cost summaries.
+figure source data,present,figures/source_data/,MEGNet figure source data plus closure tables.
+figure plotting scripts,present,figures/scripts/plot_megnet_summary.py,At least one reproducible figure script included.
+environment lock files,partial_present,"environment.yml, requirements.txt, requirements-lock.txt",Final pip freeze pending.
+checkpoints or Zenodo links,present_with_license_caveat,checkpoints/,Residual checkpoints included; final archive DOI pending.
+reproduce_from_predictions.sh,present,reproduce_from_predictions.sh,Read-only verification.
+retrain_adapters.sh,present,retrain_adapters.sh,GPU retraining entrypoint.
+result_mapping.md,present,paper/result_mapping.md,Paper-to-file mapping.
+pytest smoke tests,passed,tests/,"4 passed, 1 skipped in a temporary test environment."
+LICENSE,pending_author_input,LICENSE,"License placeholder, not invented."
+CITATION.cff,pending_author_input,CITATION.cff,"Citation scaffold, DOI/authors pending."
+GitHub release v1.0.0-paper,pending_release_action,CODE_AVAILABILITY.md,Release cannot be created locally without repository owner action.
+Zenodo DOI,pending_release_action,DATA_AVAILABILITY.md,DOI pending final archive.
