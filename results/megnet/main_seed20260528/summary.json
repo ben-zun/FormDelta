@@ -1,0 +1,94 @@
+{
+  "generated": "2026-09-03",
+  "out_dir": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903",
+  "seed": 20260528,
+  "device": "cpu",
+  "prediction_csv": [
+    "<RUNS_ROOT>/task_specific_reference_299_308/invdesflow_megnet_json_wrapper_v6/invdesflow_medium_predictions_success_json_wrapper_v6.csv"
+  ],
+  "dataset_root": "<RUNS_ROOT>/task_specific_reference_299_308/medium_same_split_269",
+  "feature_cache": "<RUNS_ROOT>/official_benchmark_214/matbench_e_form_5fold/fold0/cache/composition_features.csv",
+  "structure_cache": "<RUNS_ROOT>/official_benchmark_214/matbench_e_form_5fold/fold0/cache/structure_metadata.csv",
+  "contract_summary": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/direct_reference/contract_summary.json",
+  "summary_csv": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/summary.csv",
+  "best_test_rows": [
+    {
+      "stage": "single_model_fegx",
+      "variant": "direct_reference_fegx_single",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/fegx/metrics.json",
+      "n": 2048,
+      "mae_mev_atom": 62.0899488065882,
+      "rmse_mev_atom": 191.98654039969324,
+      "p95_abs_mev_atom": 206.54270294794435,
+      "bias_mev_atom": -16.368820237132493,
+      "delta_vs_direct_mae_mev_atom": -21.2821560147829
+    },
+    {
+      "stage": "simple_residual_adapter",
+      "variant": "direct_reference_simple_residual",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/adapter/metrics.json",
+      "n": 2048,
+      "mae_mev_atom": 75.27123256412204,
+      "rmse_mev_atom": 295.46332646913135,
+      "p95_abs_mev_atom": 226.6076876972942,
+      "bias_mev_atom": -35.199630963418066,
+      "delta_vs_direct_mae_mev_atom": -8.100872257249051
+    },
+    {
+      "stage": "adapter_baseline",
+      "variant": "direct_reference_simple_residual_baseline",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/adapter/metrics.json",
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620621,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "delta_vs_direct_mae_mev_atom": 0.0
+    },
+    {
+      "stage": "direct_raw",
+      "variant": "raw_model_energy_as_formation",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/direct_reference/contract_summary.json",
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620621,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "delta_vs_direct_mae_mev_atom": 0.0
+    },
+    {
+      "stage": "direct_reference_contract",
+      "variant": "direct_reference",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/direct_reference/contract_summary.json",
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620621,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "delta_vs_direct_mae_mev_atom": 0.0
+    },
+    {
+      "stage": "fegx_baseline",
+      "variant": "direct_reference_fegx_single_baseline",
+      "split": "test",
+      "reference_mode": "direct_reference",
+      "source_metrics": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/fegx/metrics.json",
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620622,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "delta_vs_direct_mae_mev_atom": 0.0
+    }
+  ]
+}

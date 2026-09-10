@@ -1,0 +1,90 @@
+{
+  "generated": "2026-09-03",
+  "input": {
+    "prediction_csv": [
+      "<RUNS_ROOT>/task_specific_reference_299_308/invdesflow_megnet_json_wrapper_v6/invdesflow_medium_predictions_success_json_wrapper_v6.csv"
+    ],
+    "dataset_root": "<RUNS_ROOT>/task_specific_reference_299_308/medium_same_split_269",
+    "feature_cache": "<RUNS_ROOT>/official_benchmark_214/matbench_e_form_5fold/fold0/cache/composition_features.csv",
+    "n_rows": 11264,
+    "missing_prediction_rows": 2,
+    "primary_available_rows": 11262,
+    "primary_missing_rows": 2,
+    "duplicates_dropped": 0,
+    "fill_values": {
+      "model_energy_per_atom": -1.4744511809030882,
+      "pred_raw_model_energy": -1.4744511809030882,
+      "pred_element_reference": -1.4744511809030882,
+      "pred_affine_energy_composition": -1.4744511809030882
+    }
+  },
+  "raw_model_energy_as_formation": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620621,
+      "median_abs_mev_atom": 28.03332455859242,
+      "p90_abs_mev_atom": 158.614209714248,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "r2": 0.9273599772615706
+    },
+    "train": {
+      "n": 8192,
+      "mae_mev_atom": 91.95287689181642,
+      "rmse_mev_atom": 365.2052720250746,
+      "median_abs_mev_atom": 29.459539679980136,
+      "p90_abs_mev_atom": 159.50696745266796,
+      "p95_abs_mev_atom": 274.68478089708105,
+      "bias_mev_atom": -65.54322447128288,
+      "r2": 0.9012100155043664
+    },
+    "val": {
+      "n": 1022,
+      "mae_mev_atom": 87.29621987891933,
+      "rmse_mev_atom": 337.0296119733361,
+      "median_abs_mev_atom": 27.139173926247693,
+      "p90_abs_mev_atom": 143.91652547734256,
+      "p95_abs_mev_atom": 299.75561308117494,
+      "bias_mev_atom": -59.05712850629314,
+      "r2": 0.916952571080435
+    }
+  },
+  "filled_direct_reference": {
+    "test": {
+      "n": 2048,
+      "mae_mev_atom": 83.3721048213711,
+      "rmse_mev_atom": 307.5630608620621,
+      "median_abs_mev_atom": 28.03332455859242,
+      "p90_abs_mev_atom": 158.614209714248,
+      "p95_abs_mev_atom": 268.11726253067377,
+      "bias_mev_atom": -58.24372909928779,
+      "r2": 0.9273599772615706
+    },
+    "train": {
+      "n": 8192,
+      "mae_mev_atom": 91.95287689181642,
+      "rmse_mev_atom": 365.2052720250746,
+      "median_abs_mev_atom": 29.459539679980136,
+      "p90_abs_mev_atom": 159.50696745266796,
+      "p95_abs_mev_atom": 274.68478089708105,
+      "bias_mev_atom": -65.54322447128288,
+      "r2": 0.9012100155043664
+    },
+    "val": {
+      "n": 1024,
+      "mae_mev_atom": 90.08963759584756,
+      "rmse_mev_atom": 343.3146272275015,
+      "median_abs_mev_atom": 27.17799074960081,
+      "p90_abs_mev_atom": 144.88245630975726,
+      "p95_abs_mev_atom": 312.64170431789813,
+      "bias_mev_atom": -61.905700698558555,
+      "r2": 0.9139316892504152
+    }
+  },
+  "contract": {
+    "type": "direct_reference",
+    "calibrated_predictions": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/direct_reference/calibrated_predictions.csv",
+    "coefficient_csv": "<RUNS_ROOT>/direct_reference_fegx_single_invdesflow_20260903/direct_reference/calibration_coefficients.csv"
+  }
+}
